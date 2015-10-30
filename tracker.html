@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<!-- Bootstrap core CSS -->
-    <link href="/ss/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap theme -->
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
 
@@ -16,10 +16,103 @@
 	<link href="css/tracker.css" rel="stylesheet">
 
 </head>
-<body>
-
-
-
+<body role="document">
+<div class="container" role="main">
+	<table id="info" name="info" class="table">
+		<tr>
+			<td>
+				<label for="name">Name</label>
+				<input type="text" id="name" name="name">
+			</td>
+			<td>
+				<label for="concept">Concept</label>
+				<input type="text" id="concept" name="concept">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label for="player">Player</label>
+				<input type="text" id="player" name="player">
+			</td>
+			<td>
+				<label for="anima">Anima</label>
+				<input type="text" id="anima" name="anima">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label for="caste">Caste</label>
+				<select id="caste" name="caste">
+				</select>
+			</td>
+			<td>
+				<label for="supernal">Supernal</label>
+				<select id="supernal" name="supernal"></select>
+			</td>
+		</tr>
+	</table>
+	
+	<table class="table" id="attributes" name="attributes">
+		<tr>
+			<th>Attributes</th>
+			<th></th>
+		</tr>
+	</table>
+	
+	<div class="row">
+		<div class="col-lg-4">
+		<table class="table" id="abilities" name="abilities">
+		<tr>
+				<th>Abilities</th>
+				<th></th>
+			</tr>
+		</table>
+		</div>
+		<div class="col-lg-8">
+			<table class="table" id="merits" name="merits">
+			<tr>
+				<th>Merits</th>
+				<th></th>
+			</tr>
+		</table>
+		</div>
+		<div class="col-lg-4">
+			<table class="table" id="willpower" name="willpower">
+			<tr>
+				<th>Willpower</th>
+				<th></th>
+			</tr>
+		</table>
+		</div>
+		<div class="col-lg-4">
+			<table class="table" id="limitbreak" name="limitbreak">
+			<tr>
+				<th>Limit Break</th>
+				<th></th>
+			</tr>
+		</table>
+		</div>
+		<div class="col-lg-4">
+			<table class="table" id="essence" name="essence">
+			<tr>
+				<th>Essence</th>
+				<th></th>
+			</tr>
+		</table>
+		</div>
+		<div class="col-lg-4">
+			<table class="table" id="limittrigger" name="limittrigger">
+			<tr>
+				<th>Limit Trigger</th>
+				<th></th>
+			</tr>
+		</table>
+		</div>
+	</div>
+	</div>
+	
+	
+	</div>
 	<!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

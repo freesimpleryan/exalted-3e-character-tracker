@@ -1,0 +1,16 @@
+{
+	caste: [
+		"dawn", "zenith", "night", "zenith", "eclipse", "other"
+	],
+	attributes:[
+		"strength", "dexterity", "stamina",
+		"charisma", "manipulation", "appearance",
+		"perception", "intelligence", "wits"
+	],
+	abilities: [
+		"archery", "athletics", "awareness", "brawl", "bureaucracy", "craft", "dodge",
+		"integrity", "investigation", "larceny", "linguistics", "lore", "martial arts",
+		"medicine", "melee", "occult", "performance", "presence", "resistance", "ride",
+		"sail", "socialize", "stealth", "survival", "thrown", "war"
+	]
+}
